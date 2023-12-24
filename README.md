@@ -17,10 +17,10 @@ flutter run -d chrome
 
 <table>
   <tr>
-     <td style="width: 100%;"><img src="./assets/mockups/img.png" alt="Image 1"></td>
-     <td style="width: 100%;"><img src="./assets/mockups/img_2.png" alt="Image 2"></td>
-     <td style="width: 100%;"><img src="./assets/mockups/img_3.png" alt="Image 3"></td>
-     <td style="width: 100%;"><img src="./assets/mockups/img_4.png" alt="Image 4"></td>
-     <td style="width: 100%;"><img src="./assets/mockups/img_5.png" alt="Image 5"></td>
+     <td style="width: 50%; height: 200px;"><img src="./assets/mockups/img.png" alt="Image 1"></td>
+      <td style="width: 50%; height: 200px;"><img src="./assets/mockups/img_2.png" alt="Image 2"></td>
+      <td style="width: 50%; height: 200px;"><img src="./assets/mockups/img_3.png" alt="Image 3"></td>
+      <td style="width: 50%; height: 200px;"><img src="./assets/mockups/img_4.png" alt="Image 4"></td>
+      <td style="width: 50%; height: 200px;"><img src="./assets/mockups/img_5.png" alt="Image 5"></td>
   </tr>
 </table>
