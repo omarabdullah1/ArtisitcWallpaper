@@ -15,7 +15,7 @@ flutter run -d chrome
 
 #### Looks
 
-<table>
+<table style="width: 80%;">
   <tr>
      <td style="width: 50%; height: 200px;"><img src="./assets/mockups/img.png" alt="Image 1"></td>
       <td style="width: 50%; height: 200px;"><img src="./assets/mockups/img_2.png" alt="Image 2"></td>
