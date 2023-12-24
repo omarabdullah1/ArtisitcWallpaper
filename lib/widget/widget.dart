@@ -29,7 +29,7 @@ Widget wallPaper(List<PhotosModel> listPhotos, BuildContext context) {
                 child: ClipRRect(
                     borderRadius: BorderRadius.circular(16),
                     child: CachedNetworkImage(
-                            imageUrl: photoModel!.src!.portrait,
+                            imageUrl: photoModel!.src!.portrait!,
                             placeholder: (context, url) => Container(
                                   color: const Color(0xfff5f8fd),
                                 ),

@@ -251,7 +251,7 @@ class CategoriesTile extends StatelessWidget {
                             fit: BoxFit.cover,
                           )
                         : CachedNetworkImage(
-                            imageUrl: imgUrls,
+                            imageUrl: imgUrls!,
                             height: 50,
                             width: 100,
                             fit: BoxFit.cover,
@@ -286,7 +286,7 @@ class CategoriesTile extends StatelessWidget {
                               fit: BoxFit.cover,
                             )
                           : CachedNetworkImage(
-                              imageUrl: imgUrls,
+                              imageUrl: imgUrls!,
                               height: 50,
                               width: 100,
                               fit: BoxFit.cover,

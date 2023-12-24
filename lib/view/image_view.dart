@@ -45,7 +45,7 @@ class _ImageViewState extends State<ImageView> {
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,
             child:CachedNetworkImage(
-                    imageUrl: widget.imgPath,
+                    imageUrl: widget.imgPath!,
                     placeholder: (context, url) => Container(
                       color: const Color(0xfff5f8fd),
                     ),
@@ -357,7 +357,7 @@ class _ImageViewState extends State<ImageView> {
   }
 
   Future<void> _saveSet() async {
-    Stream<String> message = Wallpaper.imageDownloadProgress(widget.imgPath);
+    Stream<String> message = Wallpaper.imageDownloadProgress(widget.imgPath!);
     message.listen((data) {
       setState(() {
         res = data;
@@ -404,7 +404,7 @@ class _ImageViewState extends State<ImageView> {
   }
 
   Future<void> _save() async {
-    var response = await Dio().get(widget.imgPath,
+    var response = await Dio().get(widget.imgPath!,
         options: Options(responseType: ResponseType.bytes));
     final result =
         await ImageGallerySaver.saveImage(Uint8List.fromList(response.data));

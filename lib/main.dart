@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Artistic Wallpaper',
-      debugShowCheckedModeBanner: false,
+      // debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.teal,
         scaffoldBackgroundColor: Colors.white,
