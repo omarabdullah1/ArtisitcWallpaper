@@ -1,4 +1,4 @@
-# artisticwallpaper
+# Artistic Wallpaper
 
 A Wallpaper Project to save images for home and lock screens and download wallpapers.
 
