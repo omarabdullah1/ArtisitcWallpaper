@@ -24,9 +24,3 @@ flutter run -d chrome
     <td><img src="./assets/mockups/img_4.png" alt="Image 5"></td>
   </tr>
 </table>
-
-<!<img src="./assets/mockups/img.png" />
-<img src="./assets/mockups/img_1.png" />
-<img src="./assets/mockups/img_2.png" />
-<img src="./assets/mockups/img_3.png" />
-<img src="./assets/mockups/img_4.png" />/>
