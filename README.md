@@ -1,16 +1,21 @@
 # artisticwallpaper
 
-A new Flutter Wallpaper Project to save imaeges for home and lock screens and download wallpapers.
+A Wallpaper Project to save images for home and lock screens and download wallpapers.
 
-## Getting Started
+Star ⭐ the repo if you like what you see😉.
 
-This project is a starting point for a Flutter application.
+#### How to Install?
 
-A few resources to get you started if this is your first Flutter project:
+```
+git clone https://github.com/omarabdullah1/artisitcwallpaper.git
+cd artisticwallpaper
+flutter packages get
+flutter run -d chrome
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Looks
+<img src="./assets/screens/img.png" />
+<img src="./assets/screens/img_1.png" />
+<img src="./assets/screens/img_2.png" />
+<img src="./assets/screens/img_3.png" />
+<img src="./assets/screens/img_4.png" />
