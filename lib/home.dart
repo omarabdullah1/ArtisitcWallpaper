@@ -2,7 +2,6 @@ import 'package:artisticwallpaper/view/categorie_screen.dart';
 import 'package:artisticwallpaper/view/search_view.dart';
 import 'package:artisticwallpaper/widget/wallpaper_widget.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -23,7 +22,6 @@ class _HomeState extends State<Home> {
   List<CategorieModel> categories = [];
   int noOfImageToLoad = 30;
   List<PhotosModel> photos = [];
-  BannerAd? _bannerAd;
 
   getTrendingWallpaper() async {
     // photos.clear();
@@ -39,15 +37,7 @@ class _HomeState extends State<Home> {
         PhotosModel photosModel = PhotosModel();
         photosModel = PhotosModel.fromMap(element);
         photos.add(photosModel);
-        //print(photosModel.toString()+ "  "+ photosModel.src.portrait);
       });
-      // photos.forEach((element) {
-      //   print(element.alt);
-      //   print(element.src.portrait);
-      //   print(element.src.landscape);
-      //   print(element.src.large);
-      //   print(element.src.medium);
-      // });
       setState(() {});
     });
   }
@@ -70,17 +60,11 @@ class _HomeState extends State<Home> {
         getTrendingWallpaper();
       }
     });
-    _bannerAd = BannerAd(
-      size: AdSize.banner,
-      adUnitId: BannerAd.testAdUnitId,
-    );
-    _bannerAd!.load();
   }
 
   @override
   void dispose() {
     super.dispose();
-    _bannerAd!.dispose();
   }
   @override
   Widget build(BuildContext context) {
@@ -90,7 +74,7 @@ class _HomeState extends State<Home> {
             child: Text('Artistic Wallpaper',
                 style: Theme.of(context)
                     .textTheme
-                    .headline5!
+                    .headlineSmall!
                     .copyWith(fontFamily: 'Pacifico', color: Colors.white))),
         elevation: 0.0,
         backgroundColor: Colors.teal,
@@ -172,9 +156,9 @@ class _HomeState extends State<Home> {
                 const SizedBox(
                   height: 24,
                 ),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const <Widget>[
+                  children: <Widget>[
                     Text(
                       "Photos provided By ",
                       style: TextStyle(

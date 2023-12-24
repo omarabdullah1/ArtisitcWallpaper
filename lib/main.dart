@@ -1,18 +1,10 @@
-// import 'dart:developer';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
-import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'home.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  FirebaseAdMob.instance.initialize(appId: 'ca-app-pub-1437851130564968~1791086400');
-
-  // Firebase.initializeApp(
-  // ).whenComplete(() {
-  //   log("completed");
-  // });
   runApp(const MyApp());
 }
 
@@ -53,7 +45,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.white,
         ),
         textTheme: const TextTheme(
-          bodyText1: TextStyle(
+          bodyLarge: TextStyle(
             fontSize: 18.0,
             fontWeight: FontWeight.w600,
             color: Colors.black,
