@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "59327378534",
+    "project_id": "artistic-wallpaper-8503b",
+    "storage_bucket": "artistic-wallpaper-8503b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59327378534:android:244ca5094bd77cc1c8a9a7",
+        "android_client_info": {
+          "package_name": "com.artisticwallpaper.artisticwallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59327378534-1g2r9a57bb1eqflbmjrbeec3pg9hlrif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhAyHNWF9tlbVIUwhsgB-LUS_eKMfP1Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59327378534-1g2r9a57bb1eqflbmjrbeec3pg9hlrif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

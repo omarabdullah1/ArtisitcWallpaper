@@ -1,0 +1,65 @@
+name: artisticwallpaper
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: any
+  http: any
+  cached_network_image: any
+  image_gallery_saver: any
+  permission_handler: any
+  random_string: ^2.0.1
+  dio: any
+  url_launcher: any
+#  url_launcher_web: ^0.1.1+1
+  fluttertoast: any
+  wallpaper: any
+  flutter_staggered_grid_view: any
+  animated_splash_screen: any
+#  firebase_core: any
+  firebase_admob: any
+#  admob_flutter: any
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  fonts:
+    - family: Jannah
+      fonts:
+        - asset: assets/fonts/jannah.ttf
+          weight: 700
+
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico.ttf
+          style: italic
+#          style: bold
+
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
