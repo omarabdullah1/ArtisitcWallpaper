@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import '../data/data.dart';
 import '../models/photos_model.dart';
-import '../widget/widget.dart';
+import '../widget/wallpaper_widget.dart';
 
 class CategorieScreen extends StatefulWidget {
 

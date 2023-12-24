@@ -1,6 +1,6 @@
 import 'package:artisticwallpaper/view/categorie_screen.dart';
 import 'package:artisticwallpaper/view/search_view.dart';
-import 'package:artisticwallpaper/widget/widget.dart';
+import 'package:artisticwallpaper/widget/wallpaper_widget.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/foundation.dart';

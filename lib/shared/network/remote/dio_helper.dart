@@ -3,13 +3,15 @@ import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 
+import '../end_points.dart';
+
 class DioHelper {
   static Dio? dio;
-  static init()
-  {
+
+  static init() {
     dio = Dio(
       BaseOptions(
-        baseUrl: 'https://student.valuxapps.com/api/',
+        baseUrl: baseURL,
         receiveDataWhenStatusError: true,
       ),
     );
@@ -24,8 +26,8 @@ class DioHelper {
   {
     dio!.options.headers =
     {
-      'lang':lang,
-      'Authorization': token??'',
+      'lang': lang,
+      'Authorization': token ?? '',
       'Content-Type': 'application/json',
     };
 
@@ -45,8 +47,8 @@ class DioHelper {
   {
     dio!.options.headers =
     {
-      'lang':lang,
-      'Authorization': token??'',
+      'lang': lang,
+      'Authorization': token ?? '',
       'Content-Type': 'application/json',
     };
 
@@ -67,8 +69,8 @@ class DioHelper {
   {
     dio!.options.headers =
     {
-      'lang':lang,
-      'Authorization': token??'',
+      'lang': lang,
+      'Authorization': token ?? '',
       'Content-Type': 'application/json',
     };
 
@@ -78,26 +80,4 @@ class DioHelper {
       data: data,
     );
   }
-  // static Future<Response> postDataWeb({
-  //   @required String url,
-  //   @required Map<String, dynamic> data,
-  //   Map<String, dynamic> query,
-  //   String lang = 'en',
-  //   String token,
-  // }) async
-  // {
-  //   dio.options.headers =
-  //   {
-  //     'lang':lang,
-  //     'Authorization': token??'',
-  //     'Content-Type': 'application/json',
-  //   };
-  //
-  //   return dio.post(
-  //     url,
-  //     queryParameters: query,
-  //     data: data,
-  //   );
-  // }
-
 }
