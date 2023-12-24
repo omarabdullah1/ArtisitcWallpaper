@@ -14,8 +14,4 @@ flutter run -d chrome
 ```
 
 #### Looks
-<img src="./assets/screens/img.png" />
-<img src="./assets/screens/img_1.png" />
-<img src="./assets/screens/img_2.png" />
-<img src="./assets/screens/img_3.png" />
-<img src="./assets/screens/img_4.png" />
+<img src="./assets/mockups/img.png" /><img src="./assets/mockups/img_1.png" /><img src="./assets/mockups/img_2.png" /><img src="./assets/mockups/img_3.png" /><img src="./assets/mockups/img_4.png" />
