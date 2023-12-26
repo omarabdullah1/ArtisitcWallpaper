@@ -1,4 +1,4 @@
-# artisticwallpaper
+# Artistic Wallpaper
 
 A Wallpaper Project to save images for home and lock screens and download wallpapers.
 
@@ -14,8 +14,13 @@ flutter run -d chrome
 ```
 
 #### Looks
-<img src="./assets/screens/img.png" />
-<img src="./assets/screens/img_1.png" />
-<img src="./assets/screens/img_2.png" />
-<img src="./assets/screens/img_3.png" />
-<img src="./assets/screens/img_4.png" />
+
+<table>
+  <tr>
+      <td><img src="./assets/mockups/img.png" alt="Image 1"></td>
+      <td><img src="./assets/mockups/img_2.png" alt="Image 2"></td>
+      <td><img src="./assets/mockups/img_3.png" alt="Image 3"></td>
+      <td><img src="./assets/mockups/img_4.png" alt="Image 4"></td>
+      <td><img src="./assets/mockups/img_5.png" alt="Image 5"></td>
+  </tr>
+</table>
