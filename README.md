@@ -10,7 +10,7 @@ Star ⭐ the repo if you like what you see😉.
 git clone https://github.com/omarabdullah1/artisitcwallpaper.git
 cd artisticwallpaper
 flutter packages get
-flutter run -d chrome
+flutter run
 ```
 
 #### Looks
