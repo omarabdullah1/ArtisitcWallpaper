@@ -6,11 +6,7 @@ class Assets {
   static const String fontsModulusBold = 'assets/fonts/Modulus-Bold.otf';
   static const String fontsPacifico = 'assets/fonts/Pacifico.ttf';
   static const String imagesArtisticwallpaper = 'assets/images/Artisticwallpaper.png';
-  static const String mocupsImg = 'assets/mocups/img.png';
-  static const String mocupsImg2 = 'assets/mocups/img_2.png';
-  static const String mocupsImg3 = 'assets/mocups/img_3.png';
-  static const String mocupsImg4 = 'assets/mocups/img_4.png';
-  static const String mocupsImg5 = 'assets/mocups/img_5.png';
+  static const String mockupsPresentation = 'assets/mockups/Presentation.png';
   static const String screensImg = 'assets/screens/img.png';
   static const String screensImg1 = 'assets/screens/img_1.png';
   static const String screensImg2 = 'assets/screens/img_2.png';
